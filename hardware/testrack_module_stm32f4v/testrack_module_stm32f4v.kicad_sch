@@ -2867,6 +2867,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_EEPROM:24LC128"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9918,6 +10025,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 119.38 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fa1b344-20f8-4204-854c-756a6d06a030")
+		(property "Reference" "#PWR035"
+			(at 119.38 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdced07f-02d9-4226-90ed-d6b5cce1812f")
+		)
+		(instances
+			(project ""
+				(path "/f21efc02-04a9-43dd-a97e-db9f6d578424"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 349.25 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10245,7 +10418,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "95211f99-3996-4e5b-bae9-93bb595d3d8f")
+		(uuid "95211f99-3996-4e5b-bae9-93bb595d3d90")
 		(property "Reference" "J1"
 			(at 70.7233 97.79 0)
 			(effects
@@ -10292,196 +10465,196 @@
 			)
 		)
 		(pin "60"
-			(uuid "bb46857a-8f34-4c3b-8187-9c4e4f77d73a")
+			(uuid "bb46857a-8f34-4c3b-8187-9c4e4f77d73b")
 		)
 		(pin "38"
-			(uuid "e35309ac-78b3-4192-a737-e39120f91685")
+			(uuid "e35309ac-78b3-4192-a737-e39120f91686")
 		)
 		(pin "28"
-			(uuid "0524a4db-8571-4280-862a-2ae5d6c68911")
+			(uuid "0524a4db-8571-4280-862a-2ae5d6c68912")
 		)
 		(pin "30"
-			(uuid "e5c2d763-93fd-4c4e-9144-31f81704c303")
+			(uuid "e5c2d763-93fd-4c4e-9144-31f81704c304")
 		)
 		(pin "1"
-			(uuid "0f02d847-39cd-4441-8adb-f68868581713")
+			(uuid "0f02d847-39cd-4441-8adb-f68868581714")
 		)
 		(pin "24"
-			(uuid "ffd3ce05-0266-488b-a30a-cbcbdd265ed8")
+			(uuid "ffd3ce05-0266-488b-a30a-cbcbdd265ed9")
 		)
 		(pin "61"
-			(uuid "5193dcf9-e02b-46b3-a0da-f11c96d1f586")
+			(uuid "5193dcf9-e02b-46b3-a0da-f11c96d1f587")
 		)
 		(pin "64"
-			(uuid "9cc442f3-afed-4ff2-8317-47eca0d34014")
+			(uuid "9cc442f3-afed-4ff2-8317-47eca0d34015")
 		)
 		(pin "69"
-			(uuid "8122f086-77fb-4863-ae22-57627bee9209")
+			(uuid "8122f086-77fb-4863-ae22-57627bee920a")
 		)
 		(pin "75"
-			(uuid "db53ecda-cb0a-49a0-83a0-fdab2bde9a06")
+			(uuid "db53ecda-cb0a-49a0-83a0-fdab2bde9a07")
 		)
 		(pin "70"
-			(uuid "555f480a-5a4a-4082-95b9-e857e1e96831")
+			(uuid "555f480a-5a4a-4082-95b9-e857e1e96832")
 		)
 		(pin "35"
-			(uuid "0b4714a3-7808-4506-bb84-c0d3f4cad86f")
+			(uuid "0b4714a3-7808-4506-bb84-c0d3f4cad870")
 		)
 		(pin "45"
-			(uuid "033317a6-d3ac-4381-b828-b8cb1d3eaf4a")
+			(uuid "033317a6-d3ac-4381-b828-b8cb1d3eaf4b")
 		)
 		(pin "42"
-			(uuid "e35d0d35-9e68-4467-9e7f-38ca84550df4")
+			(uuid "e35d0d35-9e68-4467-9e7f-38ca84550df5")
 		)
 		(pin "52"
-			(uuid "651a9b41-3deb-4a8d-ad60-d7e925d7a2a6")
+			(uuid "651a9b41-3deb-4a8d-ad60-d7e925d7a2a7")
 		)
 		(pin "8"
-			(uuid "11b59650-0e94-49a0-a774-fddf1b5ae5c1")
+			(uuid "11b59650-0e94-49a0-a774-fddf1b5ae5c2")
 		)
 		(pin "49"
-			(uuid "219580b9-5df3-434a-b930-dcc6d9bb14e9")
+			(uuid "219580b9-5df3-434a-b930-dcc6d9bb14ea")
 		)
 		(pin "23"
-			(uuid "1c74d3d6-b37f-411b-bd7b-823bd2a17b9b")
+			(uuid "1c74d3d6-b37f-411b-bd7b-823bd2a17b9c")
 		)
 		(pin "37"
-			(uuid "c692ef7d-752c-464f-871b-c40df9f0bf6c")
+			(uuid "c692ef7d-752c-464f-871b-c40df9f0bf6d")
 		)
 		(pin "9"
-			(uuid "3a0cabf8-e251-4740-8d4e-8fb5e24a3ad3")
+			(uuid "3a0cabf8-e251-4740-8d4e-8fb5e24a3ad4")
 		)
 		(pin "74"
-			(uuid "a2a48848-ca23-4137-ab05-760513662c7d")
+			(uuid "a2a48848-ca23-4137-ab05-760513662c7e")
 		)
 		(pin "7"
-			(uuid "e8f4bc26-a634-4443-bd14-084fa8b67b0a")
+			(uuid "e8f4bc26-a634-4443-bd14-084fa8b67b0b")
 		)
 		(pin "54"
-			(uuid "c48f4ddb-289c-4426-bd64-ab30f2cf640a")
+			(uuid "c48f4ddb-289c-4426-bd64-ab30f2cf640b")
 		)
 		(pin "43"
-			(uuid "dc49f924-3174-40a3-975f-20d8457eda79")
+			(uuid "dc49f924-3174-40a3-975f-20d8457eda7a")
 		)
 		(pin "41"
-			(uuid "4c12f72d-e0bb-4ddd-9dc2-cae06e28f397")
+			(uuid "4c12f72d-e0bb-4ddd-9dc2-cae06e28f398")
 		)
 		(pin "34"
-			(uuid "7ff4020a-17e9-49c2-a341-b86098a11fdc")
+			(uuid "7ff4020a-17e9-49c2-a341-b86098a11fdd")
 		)
 		(pin "27"
-			(uuid "e98c45e9-6ed8-4bce-8906-69b6ee28b655")
+			(uuid "e98c45e9-6ed8-4bce-8906-69b6ee28b656")
 		)
 		(pin "4"
-			(uuid "fd359d1a-efd5-4ba0-90a5-389656dbe506")
+			(uuid "fd359d1a-efd5-4ba0-90a5-389656dbe507")
 		)
 		(pin "3"
-			(uuid "30a4f288-4ad8-43f2-81e5-32c4a3c82e81")
+			(uuid "30a4f288-4ad8-43f2-81e5-32c4a3c82e82")
 		)
 		(pin "53"
-			(uuid "33e0460d-9a3e-4855-a1d2-0467bf90ebc8")
+			(uuid "33e0460d-9a3e-4855-a1d2-0467bf90ebc9")
 		)
 		(pin "39"
-			(uuid "edde00e7-dc8a-4890-ad1d-5f336023b1c5")
+			(uuid "edde00e7-dc8a-4890-ad1d-5f336023b1c6")
 		)
 		(pin "33"
-			(uuid "03ebdebd-486b-4c7d-b8be-8ffc9e4c2ed9")
+			(uuid "03ebdebd-486b-4c7d-b8be-8ffc9e4c2eda")
 		)
 		(pin "65"
-			(uuid "3cf16c7a-b25b-45c0-b0a2-00cb7315018a")
+			(uuid "3cf16c7a-b25b-45c0-b0a2-00cb7315018b")
 		)
 		(pin "67"
-			(uuid "42b5119c-d29c-48d0-8fc1-62ad507acf1f")
+			(uuid "42b5119c-d29c-48d0-8fc1-62ad507acf20")
 		)
 		(pin "50"
-			(uuid "19b9c4a3-4529-4f55-8bcd-1d31fcb5f6f3")
+			(uuid "19b9c4a3-4529-4f55-8bcd-1d31fcb5f6f4")
 		)
 		(pin "73"
-			(uuid "4420e15a-49a1-4f00-8259-546bbf09875d")
+			(uuid "4420e15a-49a1-4f00-8259-546bbf09875e")
 		)
 		(pin "47"
-			(uuid "ce16d7ed-d3c2-439c-85a0-494c3b1031cd")
+			(uuid "ce16d7ed-d3c2-439c-85a0-494c3b1031ce")
 		)
 		(pin "66"
-			(uuid "c0d87b1d-3566-46fe-823d-7433530374ea")
+			(uuid "c0d87b1d-3566-46fe-823d-7433530374eb")
 		)
 		(pin "48"
-			(uuid "856cd657-0fdb-4d96-b964-3367e4398428")
+			(uuid "856cd657-0fdb-4d96-b964-3367e4398429")
 		)
 		(pin "21"
-			(uuid "49933fc9-29e5-4217-a966-9ec62509591e")
+			(uuid "49933fc9-29e5-4217-a966-9ec62509591f")
 		)
 		(pin "62"
-			(uuid "03c61eb3-0720-4ccb-af22-277a6a0148d4")
+			(uuid "03c61eb3-0720-4ccb-af22-277a6a0148d5")
 		)
 		(pin "46"
-			(uuid "a5a8a65c-bc9c-4e3e-9bdb-b68b49cd1611")
+			(uuid "a5a8a65c-bc9c-4e3e-9bdb-b68b49cd1612")
 		)
 		(pin "32"
-			(uuid "3c55e0c5-00cf-41c4-8a85-67552aa946e4")
+			(uuid "3c55e0c5-00cf-41c4-8a85-67552aa946e5")
 		)
 		(pin "11"
-			(uuid "34c0617c-483d-4f9b-875a-36c8c4c05ed2")
+			(uuid "34c0617c-483d-4f9b-875a-36c8c4c05ed3")
 		)
 		(pin "40"
-			(uuid "37cb3a90-0c1b-47ac-99a3-2ac60dd10298")
+			(uuid "37cb3a90-0c1b-47ac-99a3-2ac60dd10299")
 		)
 		(pin "6"
-			(uuid "bcd6d6c6-3269-4c42-b06e-b81ff8985e85")
+			(uuid "bcd6d6c6-3269-4c42-b06e-b81ff8985e86")
 		)
 		(pin "71"
-			(uuid "332ad95d-a6bb-4dfd-92f7-b95d6b3a09f3")
+			(uuid "332ad95d-a6bb-4dfd-92f7-b95d6b3a09f4")
 		)
 		(pin "2"
-			(uuid "acf90816-9855-4635-825b-f16acad7d230")
+			(uuid "acf90816-9855-4635-825b-f16acad7d231")
 		)
 		(pin "55"
-			(uuid "62da2c47-3946-4885-becb-eb0ed9d9df6f")
+			(uuid "62da2c47-3946-4885-becb-eb0ed9d9df70")
 		)
 		(pin "22"
-			(uuid "4de2b75d-dada-48e9-86f2-7e18e7d0046f")
+			(uuid "4de2b75d-dada-48e9-86f2-7e18e7d00470")
 		)
 		(pin "20"
-			(uuid "c11fd191-2b46-4dd1-92d3-5bc174f0960b")
+			(uuid "c11fd191-2b46-4dd1-92d3-5bc174f0960c")
 		)
 		(pin "72"
-			(uuid "32e102fc-200c-45a8-9efc-3d0222cd5e5a")
+			(uuid "32e102fc-200c-45a8-9efc-3d0222cd5e5b")
 		)
 		(pin "25"
-			(uuid "95cde249-168e-4b60-b494-01a845ceb359")
+			(uuid "95cde249-168e-4b60-b494-01a845ceb35a")
 		)
 		(pin "10"
-			(uuid "554f0d2e-01a4-43b5-9a28-ef64a7d8b803")
+			(uuid "554f0d2e-01a4-43b5-9a28-ef64a7d8b804")
 		)
 		(pin "26"
-			(uuid "342c9e73-185d-4cc5-a3e2-f8b5c8a27aa3")
+			(uuid "342c9e73-185d-4cc5-a3e2-f8b5c8a27aa4")
 		)
 		(pin "63"
-			(uuid "75e61ab7-19d7-4b24-a5e1-575e203cf8d2")
+			(uuid "75e61ab7-19d7-4b24-a5e1-575e203cf8d3")
 		)
 		(pin "36"
-			(uuid "cff2f327-0011-41f3-9e53-0b87d8ea9058")
+			(uuid "cff2f327-0011-41f3-9e53-0b87d8ea9059")
 		)
 		(pin "57"
-			(uuid "fed51993-9396-431a-8fca-22d024e039c3")
+			(uuid "fed51993-9396-431a-8fca-22d024e039c4")
 		)
 		(pin "68"
-			(uuid "86a0a6c0-c8b0-4f72-bcdf-4dff9a417620")
+			(uuid "86a0a6c0-c8b0-4f72-bcdf-4dff9a417621")
 		)
 		(pin "51"
-			(uuid "81f630bd-53a9-41eb-96b7-8d82c9ea53c5")
+			(uuid "81f630bd-53a9-41eb-96b7-8d82c9ea53c6")
 		)
 		(pin "44"
-			(uuid "00740386-49b3-4bf7-8dfe-d2010ff50cc2")
+			(uuid "00740386-49b3-4bf7-8dfe-d2010ff50cc3")
 		)
 		(pin "29"
-			(uuid "5fa3ca5c-c8b8-402a-aa3b-3fc1e316d072")
+			(uuid "5fa3ca5c-c8b8-402a-aa3b-3fc1e316d073")
 		)
 		(pin "5"
-			(uuid "4a77dc07-abc0-4ca6-84fc-83cb7ec01135")
+			(uuid "4a77dc07-abc0-4ca6-84fc-83cb7ec01136")
 		)
 		(pin "31"
-			(uuid "72adcefe-cb5c-44e7-bd42-97ad9bdbecf3")
+			(uuid "72adcefe-cb5c-44e7-bd42-97ad9bdbecf4")
 		)
 		(instances
 			(project ""
@@ -11112,6 +11285,73 @@
 			(project ""
 				(path "/f21efc02-04a9-43dd-a97e-db9f6d578424"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 119.38 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7fcd52f-043b-4090-895e-60b0c4c5ad56")
+		(property "Reference" "H1"
+			(at 121.92 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 121.92 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 119.38 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 119.38 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e800169-0051-4f2e-9d21-54845e44d734")
+		)
+		(instances
+			(project ""
+				(path "/f21efc02-04a9-43dd-a97e-db9f6d578424"
+					(reference "H1")
 					(unit 1)
 				)
 			)
