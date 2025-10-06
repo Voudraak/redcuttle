@@ -6546,6 +6546,49 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_rect
+		(start 88.6 58.5)
+		(end 90.1 62.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "d9b9a080-304d-4ccf-9b66-2ab2eee42b8e")
+	)
+	(gr_rect
+		(start 88.6 58.5)
+		(end 90.1 62.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "b3cff1e9-8cbc-4e48-a275-e334af0ea0f0")
+	)
+	(gr_line
+		(start 70.2 98.5)
+		(end 70.2 110.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "394cd019-1d3e-4f67-afd2-a8f8161ab488")
+	)
+	(gr_rect
+		(start 67.6 107)
+		(end 69.6 109.1)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "592c06d4-6391-42ed-8757-a2f9a712b154")
+	)
 	(gr_arc
 		(start 90.2 127.5)
 		(mid 89.907107 128.207107)
@@ -6637,6 +6680,181 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "f5cac22f-00fa-4734-9879-41f12d97b7ea")
+	)
+	(gr_text "1"
+		(at 90 59.6 90)
+		(layer "F.Cu")
+		(uuid "3c7b936b-aa08-4dca-9577-e0ac84592082")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "4"
+		(at 90 62.3 90)
+		(layer "B.Cu")
+		(uuid "b303c371-f721-48f2-a973-4489f69d054a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "2"
+		(at 90 60.5 90)
+		(layer "In1.Cu")
+		(uuid "11b51d4d-423b-40aa-8009-7c2ec5b0b36e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "I²c"
+		(at 58.4 64.9 0)
+		(layer "F.SilkS")
+		(uuid "2d3fbf07-1f0f-47ec-bf6d-946f426d5d7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "GPIO"
+		(at 81.4 58 0)
+		(layer "F.SilkS")
+		(uuid "7038c4a0-c198-4573-89af-e6a28504e299")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "JTAG"
+		(at 68.5 66.2 0)
+		(layer "F.SilkS")
+		(uuid "787c2069-c2f9-4a0d-ad63-eb53f928f05a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "Target"
+		(at 74.7 87 0)
+		(layer "F.SilkS")
+		(uuid "964a4cf3-ddcb-4274-badd-ce3e896bcb79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "USB"
+		(at 57.2 78.3 0)
+		(layer "F.SilkS")
+		(uuid "b46abaf9-8f0b-41ef-a9b6-1f34c1538e45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "3"
+		(at 90 61.4 90)
+		(layer "In2.Cu")
+		(uuid "547288ac-08db-41f1-8cd6-ca6562aec43c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1BitSquared"
+		(at 70 99.8 -0)
+		(layer "B.SilkS")
+		(uuid "1fa63902-0f7a-49af-b8d5-dc08dfa59e83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "testrack_breakout"
+		(at 70.4 99.8 0)
+		(layer "B.SilkS")
+		(uuid "239c9fcf-7fb5-4348-b674-515c494f3f77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right mirror)
+		)
+	)
+	(gr_text "v0.1a"
+		(at 70.4 101.4 -0)
+		(layer "B.SilkS")
+		(uuid "32ab2d13-270f-45f0-b405-fc68e3058d42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right mirror)
+		)
+	)
+	(gr_text "RWK"
+		(at 70.4 108.7 0)
+		(layer "B.SilkS")
+		(uuid "7fee4918-1e34-4624-8908-e067ab7f324c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "CERN OHL\nv2 Strict"
+		(at 69.7 104.7 -0)
+		(layer "B.SilkS")
+		(uuid "a4f616fc-1bcf-4cac-b498-53a5d0899290")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "License"
+		(at 70.7 103.9 -0)
+		(layer "B.SilkS")
+		(uuid "bfb8af8c-c659-48a2-b370-6c3d31ba7936")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right mirror)
+		)
 	)
 	(segment
 		(start 63.4 64.345)
@@ -9988,6 +10206,38 @@
 				(xy 60.413323 90.883018) (xy 60.420638 90.86536) (xy 60.453167 90.816677) (xy 60.466677 90.803167)
 				(xy 60.515361 90.770637) (xy 60.533018 90.763323) (xy 60.595274 90.750939) (xy 60.604823 90.75)
 				(xy 72.295177 90.75)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "F.Mask" "B.Cu" "B.Mask" "In1.Cu" "In2.Cu")
+		(uuid "46f8daa7-49a8-4f12-927f-cb1e2c2917d3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 88.5 58.4) (xy 90.3 58.4) (xy 90.3 62.5) (xy 88.5 62.5)
 			)
 		)
 	)
