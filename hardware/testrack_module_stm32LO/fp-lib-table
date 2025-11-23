@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pkl_connectors")(type "KiCad")(uri "/home/voudraak/Desktop/VSCodeProjects/1bitsquared/redcuttle/lib/pkl/pkl_connectors.pretty")(options "")(descr ""))
+)
