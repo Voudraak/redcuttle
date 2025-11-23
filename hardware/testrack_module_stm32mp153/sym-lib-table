@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "red_cuttle")(type "KiCad")(uri "/home/voudraak/Desktop/VSCodeProjects/1bitsquared/redcuttle/lib/red_cuttle.kicad_sym")(options "")(descr ""))
+  (lib (name "redcuttle_testrack")(type "KiCad")(uri "/home/voudraak/Desktop/VSCodeProjects/1bitsquared/redcuttle/lib/redcuttle_testrack.kicad_sym")(options "")(descr ""))
+)
